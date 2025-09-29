@@ -6,11 +6,13 @@ import UserProfileWithParams from "./components/UserProfile"
 const App = () => {
   return (
     <div>
+      <BrowserRouter>
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/user/:id" element={<UserProfileWithParams />} />
       <Route path="*" element={<NotFound />} />
        </Routes>
+       </BrowserRouter>
     </div>
   )
 }
