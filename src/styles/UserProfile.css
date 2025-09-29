@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileCard{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.profileCard button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px ;
+    margin:auto;
+    margin-block: 30px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: #0077ff;;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.profileCard p svg {
+  margin-right: 10px;
+  color: #555;
+}
+.userLogo{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.name{
+    text-align: center;
+    color:  #0A2472;
+    font-size: 2rem;
+}
+.skills{
+    text-align: center;
+    color: #333;
+    margin: 10px ;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.profileDetail {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.profileDetail svg {
+  margin-right: 10px;
+  color: #555;
+}
