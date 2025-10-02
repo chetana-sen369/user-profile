@@ -15,7 +15,7 @@ class UserProfile extends React.Component {
     };
     componentDidMount() {
         setTimeout(() => {
-            const user = UserData.find(u => u.id === parseInt(this.props.id));
+            const user = UserData.find(u => u.id == parseInt(this.props.id));
             this.setState({ user, loading: false });
         }, 1000);
     }
